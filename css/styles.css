@@ -35,7 +35,8 @@ nav a{
 }
 
 nav a:hover{
-  text-decoration: wavy;
+
+  text-decoration: underline wavy;
 }
 
 .skip a{
@@ -45,8 +46,9 @@ nav a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  left:500px;
-  top:40px;
+  left:-500px;
+  top:-40px;
+  position:relative;
   /*Your code here - position relative to the parent */
   /*Your code here - place 500px left and 40px higher */;
 }
